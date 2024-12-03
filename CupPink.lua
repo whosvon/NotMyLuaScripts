@@ -64,8 +64,8 @@ if DeviceType == "Mobile" then
 end
 
 local Window = Fluent:CreateWindow({
-    Title = game:GetService("MarketplaceService"):GetProductInfo(16732694052).Name .." | CupPink - Premium",
-    SubTitle = "discord.gg/25ms)",
+    Title = game:GetService("MarketplaceService"):GetProductInfo(16732694052).Name .." | Fisch - Premium",
+    SubTitle = "https://discord.gg/bnWv9QEMQC)",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
@@ -119,7 +119,7 @@ local RunCount = false
 -- // // // Functions // // // --
 function ShowNotification(String)
     Fluent:Notify({
-        Title = "CupPink Hub",
+        Title = "Fisch Hub",
         Content = String,
         Duration = 5
     })
@@ -555,7 +555,7 @@ do
         Title = "Copy Discord link",
         Description = "Join our main discord!",
         Callback = function()
-            setclipboard("https://discord.gg/25ms")
+            setclipboard("https://discord.gg/bnWv9QEMQC")
         end
     })
 
@@ -1073,7 +1073,7 @@ end
 
 Window:SelectTab(1)
 Fluent:Notify({
-    Title = "CupPink",
+    Title = "Fisch",
     Content = "Executed!",
     Duration = 8
 })
